@@ -1007,6 +1007,8 @@ img {
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
     transition: background-color var(--transition);
 }
@@ -1054,6 +1056,7 @@ img {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
     border-radius: 4px;
     min-width: 165px;
     height: 40px;

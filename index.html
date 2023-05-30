@@ -423,16 +423,47 @@
         <p class="form-text">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-wrapper">
-            <label class="form-label" for=" user-name">Name</label>
+            <label class="form-label" for="user-name">Name</label>
             <div class="wrapper-input">
               <input
                 id="user-name"
                 name="user-name"
                 type="text"
                 class="input-form"
+                required
               />
               <svg width="18" height="24" class="form-icon">
                 <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-tel">Phone</label>
+            <div class="wrapper-input">
+              <input
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+                class="input-form"
+                required
+              />
+              <svg width="18" height="24" class="form-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label class="form-label" for="user-email">Email</label>
+            <div class="wrapper-input">
+              <input
+                id="user-email"
+                name="user-email"
+                type="email"
+                class="input-form"
+                required
+              />
+              <svg width="18" height="24" class="form-icon">
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>

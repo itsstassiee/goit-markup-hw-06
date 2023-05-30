@@ -934,12 +934,14 @@ img {
 
 
 
-.footer-form-list {
+/* .footer-form-list {
     display: flex;
     gap: 24px;
-}
+} */
 
 .icon-form-footer {
     display: flex;
     margin-left: 16px;
 }
+
+.form-wrapper-footer {}

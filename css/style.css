@@ -786,11 +786,15 @@ img {
     transition: border-color var(--transition);
 }
 
+.contact-form-wrapper {
+    position: relative;
+}
 
-.contact-form-input:focus {
+
+/* .contact-form-input:focus {
     outline: none;
     border-color: var(--text-btn);
-}
+} */
 
 .form-span {
     font-size: 12px;
@@ -803,10 +807,10 @@ img {
 }
 
 
-.contact-form-span-input {
+/* .contact-form-span-input {
     position: relative;
     display: block;
-}
+} */
 
 .icon-form {
     position: absolute;
@@ -817,9 +821,9 @@ img {
 }
 
 
-.contact-form-input:focus+.icon-form {
+/* .contact-form-input:focus+.icon-form {
     fill: var(--text-btn);
-}
+} */
 
 .textarea {
     width: 100%;

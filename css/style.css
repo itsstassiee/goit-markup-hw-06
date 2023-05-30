@@ -760,6 +760,10 @@ img {
 .modal-form-wrapper {
     display: block;
     margin-bottom: 8px;
+    letter-spacing: 0.04em;
+    color: var(--light_slate);
+    font-size: 12px;
+    line-height: 1.17;
 }
 
 .modal-form-wrapper-textarea {

@@ -845,20 +845,6 @@ img {
 }
 
 
-.modal-button-form {
-    width: 169px;
-    height: 56px;
-    left: 635px;
-    top: 584px;
-    background: var(--text-btn);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    color: var(--white);
-    display: block;
-    margin: auto;
-    transition: background-color var(--transition);
-}
 
 .cheakbox-span {
     margin-bottom: 24px;
@@ -871,10 +857,6 @@ img {
 }
 
 
-.modal-button-form:focus,
-.modal-button-form:hover {
-    background-color: var(--btn);
-}
 
 .cheackbox-modal {
     width: 16px;
@@ -1045,4 +1027,28 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.modal-button-form {
+    min-width: 169px;
+    height: 56px;
+    left: 635px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    top: 584px;
+    background: var(--text-btn);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    color: var(--white);
+    display: block;
+    margin: auto;
+    transition: background-color var(--transition);
+}
+
+.modal-button-form:focus,
+.modal-button-form:hover {
+    background-color: var(--btn);
 }

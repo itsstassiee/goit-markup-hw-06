@@ -872,31 +872,6 @@ img {
     letter-spacing: 0.04em;
 }
 
-.button-form-footer {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
-    background-color: var(--text-btn);
-    border: none;
-    color: var(--white);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    border-radius: 4px;
-    width: 165px;
-    height: 40px;
-    display: flex;
-    transition: background-color var(--transition);
-}
-
-.button-form-footer:hover,
-.button-form-footer:focus {
-    background-color: var(--btn);
-}
 
 
 
@@ -1044,7 +1019,7 @@ img {
 
 .form-wrapper-footer {
     display: flex;
-    gap: 24x;
+    gap: 24px;
 }
 
 .form-footer-email {
@@ -1063,4 +1038,31 @@ img {
 
 .form-footer-email::placeholder {
     color: #ffffff;
+}
+
+.button-form-footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: var(--text-btn);
+    border: none;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    transition: background-color var(--transition);
+}
+
+.button-form-footer:hover,
+.button-form-footer:focus {
+    background-color: var(--btn);
 }

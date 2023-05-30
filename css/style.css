@@ -951,6 +951,7 @@ img {
 /* ============================== */
 .form-wrapper {
     margin-bottom: 8px;
+    display: block;
 }
 
 .form-label {
@@ -960,6 +961,7 @@ img {
     color: var(--light_slate);
     display: block;
     margin-bottom: 4px;
+    display: block;
 }
 
 .wrapper-input {

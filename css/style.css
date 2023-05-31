@@ -801,13 +801,6 @@ img {
     display: block;
 } */
 
-/* .icon-form {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    transition: fill var(--transition);
-} */
 
 /* .contact-form-input:focus+.icon-form {
     fill: var(--text-btn);

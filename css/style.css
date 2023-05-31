@@ -1069,3 +1069,13 @@ img {
 .button-form-footer:focus {
     background-color: var(--btn);
 }
+
+.form-link {
+    color: var(--text-btn);
+}
+
+.input-cheakbox:checked+.cheackbox-label>.span-form {
+    background-color: var(--btn);
+    border: none;
+    fill: var(--white);
+}

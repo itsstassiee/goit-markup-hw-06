@@ -972,7 +972,7 @@ img {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    transition: background-color var(--transition);
+
     display: inline-flex;
     align-items: center;
     justify-content: center;

@@ -110,17 +110,6 @@ img {
     margin-bottom: 72px;
 }
 
-.visually-hidden {
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: 1px;
-}
 
 
 
@@ -883,6 +872,7 @@ img {
 
 .footer-form {
     margin-left: 80px;
+    fill: var(--white);
 }
 
 
@@ -931,6 +921,7 @@ img {
 }
 
 .form-icon {
+    fill: var(--text);
     position: absolute;
     left: 16px;
     top: 50%;
@@ -960,6 +951,7 @@ img {
     padding: 8px 16px;
     outline: transparent;
     resize: none;
+    display: block;
     line-height: 1.17;
     transition: border-color var(--transition);
 }
@@ -978,7 +970,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light_slate);
-
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .span-form {
@@ -1083,4 +1077,22 @@ img {
 
 .cheackbox-wrapper {
     margin-bottom: 24px;
+
+}
+
+
+
+.visually-hidden {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: 1px;
+    position: absolute;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
 }

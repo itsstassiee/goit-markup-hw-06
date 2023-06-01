@@ -792,7 +792,7 @@ img {
     letter-spacing: 0.04em;
     color: var(--light_slate);
     margin-bottom: 4px;
-    display: inline-flex;
+    display: block;
 }
 
 
@@ -1064,6 +1064,7 @@ img {
     background-color: var(--btn);
     border: none;
     fill: var(--white);
+    display: inline-flex;
 }
 
 .cheackbox-wrapper {

@@ -1064,7 +1064,6 @@ img {
     background-color: var(--btn);
     border: none;
     fill: var(--white);
-    display: inline-flex;
 }
 
 .cheackbox-wrapper {
@@ -1087,4 +1086,8 @@ img {
     position: absolute;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
+}
+
+.icon-form {
+    display: inline-flex;
 }

@@ -962,9 +962,9 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--light_slate);
-    display: inline-flex;
+    /* display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 8px; */
 }
 
 .span-form {
@@ -976,6 +976,7 @@ img {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
